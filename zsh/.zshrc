@@ -12,3 +12,4 @@ source $ZSH/oh-my-zsh.sh
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
 alias explorer='~/.init/explorer.sh'
+alias i3exit='~/.init/i3exit.sh'
