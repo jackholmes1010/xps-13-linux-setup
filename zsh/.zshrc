@@ -14,3 +14,4 @@ source $ZSH/oh-my-zsh.sh
 alias explorer='~/.init/explorer.sh'
 alias i3exit='~/.init/i3exit.sh'
 alias settings='~/.init/open-settings.sh'
+alias resume='~/.init/restart-wifi.sh'
