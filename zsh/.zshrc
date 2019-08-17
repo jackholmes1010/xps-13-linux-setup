@@ -13,5 +13,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias explorer='~/.init/explorer.sh'
 alias i3exit='~/.init/i3exit.sh'
-alias settings='~/.init/open-settings.sh'
-alias resume='~/.init/restart-wifi.sh'
+alias settings='XDG_CURRENT_DESKTOP=Unity unity-control-center'
+#https://askubuntu.com/questions/860593/ubuntu-16-10-wifi-not-working-after-sleep-xps13
+alias resume='systemctl restart network-manager.service'
